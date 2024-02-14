@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Day Card</title>
+<style>
+  body {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+
+  .heart {
+    color: red;
+  }
+
+  .flower {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <img class="flower" src="https://www.pngkey.com/png/full/171-1718618_transparent-flower-border-png-transparent-background-flower-border.png" alt="Flower">
+  <h2>Happy Valentine's Day Regine! <h2>
+  <p>Have a nice day!<span class="heart">&hearts;</span></p>
+</div>
+</body>
+</html>
